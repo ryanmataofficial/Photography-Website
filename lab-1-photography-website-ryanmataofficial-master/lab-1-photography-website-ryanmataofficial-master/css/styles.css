@@ -1,0 +1,152 @@
+.navbar {
+  font-size: 1.5em;
+  font-family: Helvetica, sans-serif;
+}
+.navbar-brand {
+  font-size: 1.8em !important;
+  font-family: 'Allerta Stencil', sans-serif;
+  color: #666666 !important;
+}
+.nav-link {
+  color: #666666 !important;
+}
+.navbar-toggler-icon {
+  background-color: #666666 !important;
+}
+.home-page {
+  background-color: #f0f0f0;
+}
+.other-pages {
+  font-family: Helvetica, sans-serif;
+  background-color: #c4f4ff;
+}
+.other-pages h1 {
+  font-family: Helvetica, sans-serif;
+  color: #000000;
+  text-align: center;
+  padding-top: 8%;
+  font-size: 7em;
+}
+.home-display-picture {
+  display: flex;
+  justify-content: center;
+}
+.home-display-picture img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 150px;
+}
+.introduction {
+  text-align: center;
+}
+.introduction h2 {
+  font-size: 5em;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.introduction p {
+  font-size: 1.2em;
+  font-family: Helvetica, sans-serif;
+  margin: 0 20% 0 20%;
+  padding: 0 0 20% 0;
+}
+.footer-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: #c4f4ff;
+  color: #666666;
+}
+.footer-other-pages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: #f0f0f0;
+  color: #666666;
+}
+.GitHub-repository a {
+  color: #666666;
+}
+.GitHub-repository a:hover {
+  color: #000000;
+}
+.portfolio {
+  display: grid;
+  grid-template: auto auto auto / 1fr 1fr 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  padding: 30px 30px 30px 30px;
+}
+.portfolio img {
+  width: 100%;
+  height: 100%;
+  border: solid;
+  border-color: #000000;
+  border-width: thick;
+}
+.about {
+  display: flex;
+  padding: 5% 10% 10% 10%;
+}
+.about img {
+  width: 50%;
+  height: auto;
+  display: flex;
+  border: solid;
+  border-color: #000000;
+  border-width: thick;
+}
+.about p {
+  width: 50%;
+  margin-left: 30px;
+  text-align: center;
+}
+.review {
+  padding: 7% 18%;
+}
+.review-name {
+  display: flex;
+}
+.reviewer {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  font-weight: bold;
+  font-size: 2.3em;
+}
+
+@media only screen and (max-width: 400px) {
+  .navbar-brand {
+    font-size: 1em !important;
+  }
+  .portrait img {
+    width: 65%;
+  }
+  .portfolio {
+    grid-template: auto auto auto / 1fr;
+  }
+  .review {
+    padding: 12% 12%;
+  }
+  .review-text {
+    font-size: 1em;
+  }
+  .user {
+    font-size: 1.4em;
+  }
+  hr {
+    margin-top: .8em !important;
+    margin-bottom: .8em !important;
+  }
+  h1 {
+    flex-direction: column;
+  }
+  .about-photo,
+  .about-text {
+    width: 100%;
+    margin-left: 0;
+  }
+}
